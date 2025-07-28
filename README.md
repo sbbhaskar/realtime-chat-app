@@ -98,42 +98,6 @@ npm run dev
 
 ---
 
-## 🌍 Deployment
-
-### 🧾 Backend (Render)
-
-1. Push backend code to a GitHub repo
-2. Visit [https://render.com](https://render.com)
-3. Create a new Web Service
-4. Connect GitHub repo and set the following:
-
-   * Build Command: `npm install`
-   * Start Command: `npm run dev` or `node server.js`
-   * Add environment variables: `MONGO_URI`, `JWT_SECRET`, `PORT`
-
-### 💨 Frontend (Vercel)
-
-1. Push frontend code to GitHub
-2. Visit [https://vercel.com](https://vercel.com)
-3. Import your repo
-4. Set `VITE_BACKEND_URL=https://your-backend-url` in Environment Variables
-5. Deploy ✅
-
----
-
-## 📷 Screenshots
-
-**Login Page**
-![Login](https://via.placeholder.com/600x300)
-
-**Chat Dashboard**
-![Chat](https://via.placeholder.com/600x300)
-
-**Search & Start Chat**
-![Search](https://via.placeholder.com/600x300)
-
----
-
 ## 🙋‍♂️ Author
 
 **Bhaskar Banerjee**
